@@ -8,9 +8,9 @@
 1. [👥 팀 소개](#-team-12시간이-모자라)
 2. [📋 세미나 개요](#-세미나-개요)
 4. [📚 MSA 소개](#-MSA-소개)
-5. [🏗️ MSA Architecture](#-MSA-Architecture)
+5. [🏗️ MSA Architecture](#%EF%B8%8F-msa-architecture)
 6. [🚀 모놀리식에서 MSA로 전환 전략](#-모놀리식에서-MSA로-전환-전략)
-7. [📆 Q&A](#-Q&A)
+7. [📆 Q&A](#-QA)
 
 <br>
 
