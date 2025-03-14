@@ -149,6 +149,29 @@ SQL을 사용해 데이터를 관리함. <br>
 <br><br>
 ## 🚀 모놀리식에서 MSA로 전환 전략
 
+### 빅뱅 전환 vs 점진적인 전환
+
+![Image](https://github.com/user-attachments/assets/ae06ea25-9e5c-4951-b6db-fad7b7301389) <br>
+![Image](https://github.com/user-attachments/assets/b09e6e70-8797-4fb7-aee4-d86a21b50d91) <br>
+![Image](https://github.com/user-attachments/assets/97ac682c-a231-479c-b3bc-c82375f345e7)
+
+### 설계 절차
+![Image](https://github.com/user-attachments/assets/6f207b79-f991-4cbb-9c3e-cfe0d4368aa2)
+
+### 적합성 검토
+![Image](https://github.com/user-attachments/assets/b4ad1092-333b-40ab-888b-ce32b17c83ee)
+![Image](https://github.com/user-attachments/assets/2c783f44-024e-4b00-841b-41c2f8d53130)
+
+### 도입 목표 수립
+![Image](https://github.com/user-attachments/assets/796f5de0-f87e-4a26-8704-fb3872a64e11)
+![Image](https://github.com/user-attachments/assets/17063f85-7202-4169-9dbb-c366da3d3e66)
+
+### 서비스 분할
+![Image](https://github.com/user-attachments/assets/5ff76ae0-aa95-4151-8f44-5384c0ea1b60)
+![Image](https://github.com/user-attachments/assets/ae7ca0fd-7d9c-422c-ac4e-a0cdf1834f6e)
+- 온라인 쇼핑몰 시스템을 도메인에 따라 서비스 분리 <br> 
+- 각 서비스들은 각자 담당한 로직만을 수행하여야하며, 다른 서비스와 최소한의 통신을 해야하고, 인접 서비스에 미치는 영향도 최소이거나 없도록 서비스의 경계를 구분하여 분할
+
 <br><br>
 ## 📆 Q&A
 
