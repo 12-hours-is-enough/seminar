@@ -149,28 +149,72 @@ SQL을 사용해 데이터를 관리함. <br>
 <br><br>
 ## 🚀 모놀리식에서 MSA로 전환 전략
 
-### 빅뱅 전환 vs 점진적인 전환
+#### 1. 빅뱅 전환 vs 점진적인 전환
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/f57c4440-cd47-4a41-b211-f614dada28c1" />
 
-![Image](https://github.com/user-attachments/assets/ae06ea25-9e5c-4951-b6db-fad7b7301389) <br>
-![Image](https://github.com/user-attachments/assets/b09e6e70-8797-4fb7-aee4-d86a21b50d91) <br>
-![Image](https://github.com/user-attachments/assets/97ac682c-a231-479c-b3bc-c82375f345e7)
+<br>
 
-### 설계 절차
-![Image](https://github.com/user-attachments/assets/6f207b79-f991-4cbb-9c3e-cfe0d4368aa2)
+#### 1-1. 빅뱅 전환
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/7bd9a4c2-8662-416b-9865-5d0b1c9c243d" />
 
-### 적합성 검토
-![Image](https://github.com/user-attachments/assets/b4ad1092-333b-40ab-888b-ce32b17c83ee)
-![Image](https://github.com/user-attachments/assets/2c783f44-024e-4b00-841b-41c2f8d53130)
+#### 1-2. 점진적 전환
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/1b916bb6-866f-46b0-b9f2-97021c47d88b" />
 
-### 도입 목표 수립
-![Image](https://github.com/user-attachments/assets/796f5de0-f87e-4a26-8704-fb3872a64e11)
-![Image](https://github.com/user-attachments/assets/17063f85-7202-4169-9dbb-c366da3d3e66)
+<br>
 
-### 서비스 분할
-![Image](https://github.com/user-attachments/assets/5ff76ae0-aa95-4151-8f44-5384c0ea1b60)
-![Image](https://github.com/user-attachments/assets/ae7ca0fd-7d9c-422c-ac4e-a0cdf1834f6e)
-- 온라인 쇼핑몰 시스템을 도메인에 따라 서비스 분리 <br> 
-- 각 서비스들은 각자 담당한 로직만을 수행하여야하며, 다른 서비스와 최소한의 통신을 해야하고, 인접 서비스에 미치는 영향도 최소이거나 없도록 서비스의 경계를 구분하여 분할
+---
+
+#### 2. 설계 절차
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/aef5314f-ecb2-4aae-85a8-8c5951e2de30" />
+
+<br>
+
+---
+
+#### 2-1. 적합성 검토
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/74d8758e-f1bb-4f86-bb58-1a54ea9df3d0" />
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/dca2072d-5e00-4ec9-8788-56f85d0aa373" />
+
+<br>
+
+---
+
+### 2-2. 도입 목표 수립
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/be9c62c0-97a9-4ff7-a482-da24f9f33662" />
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/663874f2-05ac-4343-a768-e55cddd71831" />
+
+<br>
+
+---
+
+
+### 2-3. 서비스 분할
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/bf2af198-ff56-4f9a-8a86-b073018db44d" />
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/ae7ca0fd-7d9c-422c-ac4e-a0cdf1834f6e" />
+
+- 온라인 쇼핑몰 시스템을 도메인에 따라 서비스 분리 <br>
+- 각 서비스들은 각자 담당한 로직만을 수행하여야하며, 다른 서비스와 최소한의 통신을 해야하고, 인접 서비스에 미치는 영향도 최소이거나 없도록 서비스의 경계를 구분하여 분할 <br>
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/f057bc3b-0e8c-4c36-970e-c1179c5e3ccb" />
+
+<br>
+
+---
+
+
+### 2-4. 설계
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/b8641d53-1a57-4bd6-8252-aab8fe1be760" />
+<br>
+
+---
+
+
+### 2-5. 전환 전략 정리
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/653f24c9-1c76-4954-b722-7fa05d8db6e6" />
+
+
+<br>
+
+---
 
 <br><br>
 ## 📆 Q&A
