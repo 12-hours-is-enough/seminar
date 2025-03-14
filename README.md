@@ -160,41 +160,51 @@ SQL을 사용해 데이터를 관리함. <br>
 #### 1-2. 점진적 전환
 <img width="2041" alt="image" src="https://github.com/user-attachments/assets/1b916bb6-866f-46b0-b9f2-97021c47d88b" />
 
+> 리스크 관리 측면에서 많은 기업들은 **점진적인 전환**을 선택
 <br>
 
 ---
 
 #### 2. 설계 절차
-<img width="2041" alt="image" src="https://github.com/user-attachments/assets/aef5314f-ecb2-4aae-85a8-8c5951e2de30" />
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/d898bac1-19ae-4f5f-a8cb-24ccb7b2fe44" />
 
+> - **적합성 검토**: 시스템이 MSA로 전환이 필요한지 판단
+> - **도입 목표 수립**: 도입 목표를 수립하고 달성 기준을 정의
+> - **서비스 분할**: 서비스 분할 방식 결정
+> - **설계**: 기술 스택 선정
 <br>
 
 ---
 
 #### 2-1. 적합성 검토
-<img width="2041" alt="image" src="https://github.com/user-attachments/assets/74d8758e-f1bb-4f86-bb58-1a54ea9df3d0" />
-<img width="2041" alt="image" src="https://github.com/user-attachments/assets/dca2072d-5e00-4ec9-8788-56f85d0aa373" />
+> 시스템이 적합한지 판단하는 단계
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/1348aae1-1559-47b7-bd6c-0ad825061c62" />
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/3a56936a-46c7-4ca4-8163-c5a32e799512" />
 
 <br>
 
 ---
 
 ### 2-2. 도입 목표 수립
-<img width="2041" alt="image" src="https://github.com/user-attachments/assets/be9c62c0-97a9-4ff7-a482-da24f9f33662" />
-<img width="2041" alt="image" src="https://github.com/user-attachments/assets/663874f2-05ac-4343-a768-e55cddd71831" />
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/fe75ea10-74fe-4ec5-a815-128c27489abc" />
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/e202e312-3de9-48b7-b120-63677c442104" />
 
+> 달성 기준을 구체적이고 수치를 나타내어 작성하여 성공 여부 확인 가능하도록 해야 함
 <br>
 
 ---
 
 
 ### 2-3. 서비스 분할
-<img width="2041" alt="image" src="https://github.com/user-attachments/assets/bf2af198-ff56-4f9a-8a86-b073018db44d" />
-<img width="2041" alt="image" src="https://github.com/user-attachments/assets/ae7ca0fd-7d9c-422c-ac4e-a0cdf1834f6e" />
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/343c3947-b52d-403a-8b3d-203f2c409e6f" />
 
-- 온라인 쇼핑몰 시스템을 도메인에 따라 서비스 분리 <br>
-- 각 서비스들은 각자 담당한 로직만을 수행하여야하며, 다른 서비스와 최소한의 통신을 해야하고, 인접 서비스에 미치는 영향도 최소이거나 없도록 서비스의 경계를 구분하여 분할 <br>
-<img width="2041" alt="image" src="https://github.com/user-attachments/assets/f057bc3b-0e8c-4c36-970e-c1179c5e3ccb" />
+
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/2e9e24f0-d017-4661-b8ac-d9ee13c0a8d2" />
+
+> - 온라인 쇼핑몰 시스템을 도메인에 따라 서비스 분리 <br>
+> - 각 서비스들은 각자 담당한 로직만을 수행, 다른 서비스와 최소한의 통신, 인접 서비스에 미치는 영향이 최소이거나 없도록 서비스의 경계를 구분하여 분할 <br>
+<br>
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/7f64654e-b66d-4da9-a8db-d04bd7210848" />
 
 <br>
 
@@ -202,15 +212,17 @@ SQL을 사용해 데이터를 관리함. <br>
 
 
 ### 2-4. 설계
-<img width="2041" alt="image" src="https://github.com/user-attachments/assets/b8641d53-1a57-4bd6-8252-aab8fe1be760" />
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/5f49460b-5ee5-4849-a459-f28bdea32ba9" />
 <br>
 
 ---
 
 
 ### 2-5. 전환 전략 정리
-<img width="2041" alt="image" src="https://github.com/user-attachments/assets/653f24c9-1c76-4954-b722-7fa05d8db6e6" />
+<img width="2041" alt="image" src="https://github.com/user-attachments/assets/939591fc-0e21-43d5-8232-334ff32ec3b2" />
 
+> MSA 전환의 필요성과 가치를 평가한 후, 전환을 결정했다면 명확한 도입 목표를 설정하는 것이 중요 <br>
+> 이후, 적절한 서비스 분할 전략을 선정하여 분할 단위를 도출하고, 이를 기반으로 목표에 맞는 시스템 설계를 진행
 
 <br>
 
